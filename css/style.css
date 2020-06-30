@@ -1,0 +1,89 @@
+
+body {
+    background: url("../img/pozadina.png") center center;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    display: block;
+    margin-top: 0em;
+}
+
+input[type=text], input[type=password] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid white;
+    cursor: pointer;
+    width: 40%;
+    
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    background-image: url(../img/pozadina.png);
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+
+img.avatar {
+  width: 25em;
+  height: 20em;
+}
+
+.container {
+    background-color: #616366;
+    padding: 16px;
+}
+
+.container{
+    color: white;
+}
+
+.main-div {
+   
+    border-radius: 2px;
+    margin: 10px auto 30px;
+    max-width: 38%;
+    padding: 50px 70px 70px 71px
+}
+
+.login-form {
+    
+    text-align: center;
+}
+
+.login-form .btn.btn-primary {
+    background: #000 none repeat scroll 0 0;
+    border: 2px solid white;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    width: 40%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+}
+
+.login-form .btn.btn-primary:hover{
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid black;
+    color: #000;
+    font-weight: bold;
+}
+
